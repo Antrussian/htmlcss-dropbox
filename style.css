@@ -1,8 +1,93 @@
-    /*  Contenitore Header  */
+/*  Reset  */
 
-    /*  header  */
+     *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+     }
+   
+
+
+/*  font  */ 
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+
+/*  flex-row  */
+
+.flex-row {
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/*  flex-column  */
+
+.flex-column {
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+   /*  Contenitore Header  */
+.header {
+ 
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-between;
+}
+
+
+
+
+    /*  header ed elementi header */
+ .header-items {
+    display: flex;
+    padding: 10px;
+    height:10vh;
+    align-items: center;
+  
+ }  
+ 
+ 
+
+li {
+    display: flex;
+    margin-left: 15px;
+      color: rgb(123, 123, 123);
+      font-size: 15px;
     
+}
+
+.img {
+    display: flex;
+    width: 100px;
+    height:20px;
+}
+
+button {
+    display: flex;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 2px;
+    border:none;
+}
     
+
+
+
+
+
     /*  Contenitore Macro background  */
 
 
