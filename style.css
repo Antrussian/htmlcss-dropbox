@@ -120,7 +120,7 @@ button {
 
 .button-cta {
     display: flex;
-    width: 60%;
+    width: 250px;
     height: 15%;
 }
 
@@ -167,8 +167,8 @@ main {
 
 
 .container-main {
-    width: 100vw;
-    height: 92vh;
+    width: 100%;
+    height: 92%;
     justify-content: flex-start;
     align-items: center;
 
@@ -363,8 +363,8 @@ justify-content: space-between;
 }
 
 .container-full {
-    width: 100vw;
-    height: 50vh;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -372,19 +372,34 @@ justify-content: space-between;
     width: 100%;
     height: 100%;
     padding: 20px;
+    align-items: center;
+    
 }
 
 .size-middle {
-    height: 20%;
+    height: 100%;
     width: 60%;
+    align-items: center;
 }
+
+.size-big {
+    height: 280px;
+    width: 60%;
+    align-items: center;
+}
+
+
+ 
+
+
+
+
 
 .box-colorati {
     display: flex;
     height: 50%;
     width: 50%;
-    justify-content: center;
-    align-items: center;
+   
    
 }
 
@@ -394,24 +409,104 @@ justify-content: space-between;
 }
 
 
+.box-light-blue {
+    background-color: #0193CE;
+    border: 12px solid #0193CE;
+}
+
+
+.box-light-red {
+    background-color: #FF1C1B;
+    border: 12px solid #FF1C1B;
+}
+
+
+
 .box-grey {
-    background-color: rgb(221, 221, 221);
-    border: 12px solid rgb(221, 221, 221);
-    width: 500px;
-    height: 500px;
+    background-color: #F5F5F5;
+    border: 12px solid #F5F5F5;
+  
 }
 
 
 .box-bordeaux {
-    background-color: rgb(144, 12, 62);
-    border: 12px solid rgb(144, 12, 62);
+    background-color: #600B2B;
+    border: 12px solid #600B2B;
+}
+
+
+.box-red {
+    background-color: #D5001E;
+    border: 12px solid #D5001E;
+}
+
+
+.box-blue {
+    background-color: #073781;
+    border: 12px solid #073781;
 }
 
 
 
+.box-azzurro {
+    background-color: #B4D0E7;
+    border: 12px solid #B4D0E7;
+}
+
+.box-yellow {
+    background-color: #FFD830;
+    border: 12px solid #FFD830;
+}
 
 
 
+.img-box {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    filter: invert(100%);
+}
+
+.box-main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+    padding: 10px;
+    align-items: flex-start;
+   
+}
+
+.img-box-main {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    
+
+}
+
+
+
+.box-info {
+    display: block;
+    padding: 0px 0px 0px 10px;
+}
+
+.info {
+    display: block;
+    margin: 20px 0px 40px 0px;
+    color: rgb(135, 135, 135);
+    
+}
+
+.hr-box {
+    display: flex;
+    width: 80px;
+    height: 1px;
+    color: lightgray;
+    margin: 10px 0px 20px 10px;
+    padding: 0;
+}
 
 
 .img-logo {
@@ -426,7 +521,6 @@ justify-content: space-between;
     margin: 0;
     padding: 0;
     height: 60vh; 
-    background-color: aqua;
     flex-wrap: wrap;
     
 }
@@ -460,9 +554,121 @@ hr {
     margin-left: 20px;
 }
 
+.button-bg-white {
+    background-color: white;
+    color:rgb(123, 123, 123)
+}
+
+
+.bg-clear-blue {
+    background-color: #A6C7E2;
+}
+
+summary {
+     
+     list-style: none;   
+     padding: 10px 0px 10px 0px; 
+}
 
 
 
+
+
+.container-accordion {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid rgb(215, 215, 215);
+    border-bottom: 1px solid rgb(215, 215, 215);
+    padding: 20px 0px 20px 0px;
+   
+}
+
+.margin-bottom {
+    margin-bottom: 40px;
+}
+
+.column-size-big {
+    width: 80%;
+}
+
+.column-size-small {
+    width: 20%;
+    padding: 10px 40px 10px 0px; 
+    align-items: flex-end;
+
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: black;
+    height: 400px;
+    justify-content: center;
+    
+}
+
+
+
+.cont-footer {
+    width: 80%;
+    justify-content: space-between;
+    padding: 50px 100px 50px 100px;
+    display: flex;
+    
+}
+
+
+.cont-items-footer {
+    width: calc(100%/5);
+    height:100%;
+    align-content: flex-start;
+    
+}
+
+
+ul {
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.title-li {
+    display: flex;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.text-footer {
+    display: flex;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+hr {
+    width: 50%;
+    color: white;
+ display: flex;
+    margin-top: 80px;
+    
+    
+}
+
+
+
+.translate {
+    display: flex;
+    color: rgb(164, 164, 164);
+    width: 100%;
+    padding-left: 20px;
+    margin: 20px 0px 0px 0px;
+}
 
 
 
